@@ -25,9 +25,40 @@ primeiro, segundo = segundo, primeiro
 print(f"Após a troca: primeiro = {primeiro}, segundo = {segundo}")
 
 3) Faça operações aritméticas com dois números e mostre soma, subtração, multiplicação, divisão, resto e potência.
+print ("calculadora simples python":)
 
+print("escolha a opcao desejada:")
+
+print("[1]adicao")
+print([2]subtracao)
+print([3]multiplicao)
+print([4]divisao)
+print([5]resto da potencia)
+opcao=int(input())
+
+numero1=int(input("digite o primeiro numero:"))
+numero2=int(input("digite o segundo numero:"))
+
+if opcao==1:
+ print(f"resultado da soma:{numero1+numero2}")
+ elif opcao==2
+  print(f"resultado da subtracao:{numero-numero2}")
+   elif opcao==3
+    print(f"resultado da multiplicao:{numero*numero2}")
+    elif opcao==4
+        print(f"resultado  divisao:{numero1/numero2}")
+       elif opcao==5
+          print(f"resultado do resto da potencia:{numero1^numero2")
+
+        
 4) Verifique se um número é par ou ímpar usando operador %.
 
+numero = int(input(digite um numero:"))
+
+if numero % 2== 3:
+    print(f"{nuemeo} e par")
+else:
+   print(f"{numero} e impar")
 5) Compare dois números e exiba: maior, menor ou iguais.
 
 6) Leia idade e informe se é maior de idade (>= 18).
@@ -44,7 +75,4 @@ print(f"Após a troca: primeiro = {primeiro}, segundo = {segundo}")
 
 12) Crie uma condição com if/elif/else para classificar número: negativo, zero ou positivo.
 
-"""
-
-print("calcule simples python:"
-print("[1]"))
+""
